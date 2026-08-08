@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy[asyncio]
+asyncpg
+httpx
+pydantic
+pydantic-settings
+qdrant-client
+langchain
+langchain-qdrant
+langchain-nvidia-ai-endpoints
+alembic

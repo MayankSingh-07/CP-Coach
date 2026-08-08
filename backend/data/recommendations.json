@@ -1,0 +1,4597 @@
+{
+  "TrialError": {
+    "pending": [
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "1618C",
+        "problem_name": "Paint the Array",
+        "url": "https://codeforces.com/contest/1618/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "2199A",
+        "problem_name": "Game",
+        "url": "https://codeforces.com/contest/2199/problem/A",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787402898.630983
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "177B2",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B2",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "1618C",
+        "problem_name": "Paint the Array",
+        "url": "https://codeforces.com/contest/1618/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403032.584772
+      },
+      {
+        "problem_id": "1488A",
+        "problem_name": "From Zero To Y",
+        "url": "https://codeforces.com/contest/1488/problem/A",
+        "rating": 900,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2120B",
+        "problem_name": "Square Pool",
+        "url": "https://codeforces.com/contest/2120/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1766B",
+        "problem_name": "Notepad#",
+        "url": "https://codeforces.com/contest/1766/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1618C",
+        "problem_name": "Paint the Array",
+        "url": "https://codeforces.com/contest/1618/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1015C",
+        "problem_name": "Songs Compression",
+        "url": "https://codeforces.com/contest/1015/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2195C",
+        "problem_name": "Dice Roll Sequence",
+        "url": "https://codeforces.com/contest/2195/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1547C",
+        "problem_name": "Pair Programming",
+        "url": "https://codeforces.com/contest/1547/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2130B",
+        "problem_name": "Pathless",
+        "url": "https://codeforces.com/contest/2130/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2195C",
+        "problem_name": "Dice Roll Sequence",
+        "url": "https://codeforces.com/contest/2195/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787403261.773047
+      },
+      {
+        "problem_id": "2199A",
+        "problem_name": "Game",
+        "url": "https://codeforces.com/contest/2199/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "127A",
+        "problem_name": "Wasted Time",
+        "url": "https://codeforces.com/contest/127/problem/A",
+        "rating": 900,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "8A",
+        "problem_name": "Train and Peter",
+        "url": "https://codeforces.com/contest/8/problem/A",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "801A",
+        "problem_name": "Vicious Keyboard",
+        "url": "https://codeforces.com/contest/801/problem/A",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2225C",
+        "problem_name": "Red-Black Pairs",
+        "url": "https://codeforces.com/contest/2225/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1547C",
+        "problem_name": "Pair Programming",
+        "url": "https://codeforces.com/contest/1547/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1613C",
+        "problem_name": "Poisoned Dagger",
+        "url": "https://codeforces.com/contest/1613/problem/C",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2225C",
+        "problem_name": "Red-Black Pairs",
+        "url": "https://codeforces.com/contest/2225/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2002B",
+        "problem_name": "Removals Game",
+        "url": "https://codeforces.com/contest/2002/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403741.199358
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "127A",
+        "problem_name": "Wasted Time",
+        "url": "https://codeforces.com/contest/127/problem/A",
+        "rating": 900,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1766B",
+        "problem_name": "Notepad#",
+        "url": "https://codeforces.com/contest/1766/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1353C",
+        "problem_name": "Board Moves",
+        "url": "https://codeforces.com/contest/1353/problem/C",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1015C",
+        "problem_name": "Songs Compression",
+        "url": "https://codeforces.com/contest/1015/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "8A",
+        "problem_name": "Train and Peter",
+        "url": "https://codeforces.com/contest/8/problem/A",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2225C",
+        "problem_name": "Red-Black Pairs",
+        "url": "https://codeforces.com/contest/2225/problem/C",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1547C",
+        "problem_name": "Pair Programming",
+        "url": "https://codeforces.com/contest/1547/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1055A",
+        "problem_name": "Metro",
+        "url": "https://codeforces.com/contest/1055/problem/A",
+        "rating": 900,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2131C",
+        "problem_name": "Make it Equal",
+        "url": "https://codeforces.com/contest/2131/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403853.544529
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2120B",
+        "problem_name": "Square Pool",
+        "url": "https://codeforces.com/contest/2120/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1618C",
+        "problem_name": "Paint the Array",
+        "url": "https://codeforces.com/contest/1618/problem/C",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1015C",
+        "problem_name": "Songs Compression",
+        "url": "https://codeforces.com/contest/1015/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "177B2",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B2",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2195C",
+        "problem_name": "Dice Roll Sequence",
+        "url": "https://codeforces.com/contest/2195/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "127A",
+        "problem_name": "Wasted Time",
+        "url": "https://codeforces.com/contest/127/problem/A",
+        "rating": 900,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403868.416213
+      },
+      {
+        "problem_id": "1488A",
+        "problem_name": "From Zero To Y",
+        "url": "https://codeforces.com/contest/1488/problem/A",
+        "rating": 900,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2120B",
+        "problem_name": "Square Pool",
+        "url": "https://codeforces.com/contest/2120/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1382B",
+        "problem_name": "Sequential Nim",
+        "url": "https://codeforces.com/contest/1382/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1766B",
+        "problem_name": "Notepad#",
+        "url": "https://codeforces.com/contest/1766/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1618C",
+        "problem_name": "Paint the Array",
+        "url": "https://codeforces.com/contest/1618/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "177B2",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B2",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "8A",
+        "problem_name": "Train and Peter",
+        "url": "https://codeforces.com/contest/8/problem/A",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "801A",
+        "problem_name": "Vicious Keyboard",
+        "url": "https://codeforces.com/contest/801/problem/A",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2225C",
+        "problem_name": "Red-Black Pairs",
+        "url": "https://codeforces.com/contest/2225/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2195C",
+        "problem_name": "Dice Roll Sequence",
+        "url": "https://codeforces.com/contest/2195/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "2130B",
+        "problem_name": "Pathless",
+        "url": "https://codeforces.com/contest/2130/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787403932.130502
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787404266.537375
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787404273.018389
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787404279.751607
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1248A",
+        "problem_name": "Integer Points",
+        "url": "https://codeforces.com/contest/1248/problem/A",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1721B",
+        "problem_name": "Deadly Laser",
+        "url": "https://codeforces.com/contest/1721/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1353C",
+        "problem_name": "Board Moves",
+        "url": "https://codeforces.com/contest/1353/problem/C",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "2130B",
+        "problem_name": "Pathless",
+        "url": "https://codeforces.com/contest/2130/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "177B2",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B2",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "8A",
+        "problem_name": "Train and Peter",
+        "url": "https://codeforces.com/contest/8/problem/A",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "801A",
+        "problem_name": "Vicious Keyboard",
+        "url": "https://codeforces.com/contest/801/problem/A",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1547C",
+        "problem_name": "Pair Programming",
+        "url": "https://codeforces.com/contest/1547/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1613C",
+        "problem_name": "Poisoned Dagger",
+        "url": "https://codeforces.com/contest/1613/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "127A",
+        "problem_name": "Wasted Time",
+        "url": "https://codeforces.com/contest/127/problem/A",
+        "rating": 900,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "2130B",
+        "problem_name": "Pathless",
+        "url": "https://codeforces.com/contest/2130/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1613C",
+        "problem_name": "Poisoned Dagger",
+        "url": "https://codeforces.com/contest/1613/problem/C",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787405882.514629
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1488A",
+        "problem_name": "From Zero To Y",
+        "url": "https://codeforces.com/contest/1488/problem/A",
+        "rating": 900,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2120B",
+        "problem_name": "Square Pool",
+        "url": "https://codeforces.com/contest/2120/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2002B",
+        "problem_name": "Removals Game",
+        "url": "https://codeforces.com/contest/2002/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1721B",
+        "problem_name": "Deadly Laser",
+        "url": "https://codeforces.com/contest/1721/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "8A",
+        "problem_name": "Train and Peter",
+        "url": "https://codeforces.com/contest/8/problem/A",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1547C",
+        "problem_name": "Pair Programming",
+        "url": "https://codeforces.com/contest/1547/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1015C",
+        "problem_name": "Songs Compression",
+        "url": "https://codeforces.com/contest/1015/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1033A",
+        "problem_name": "King Escape",
+        "url": "https://codeforces.com/contest/1033/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787406709.014474
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2120B",
+        "problem_name": "Square Pool",
+        "url": "https://codeforces.com/contest/2120/problem/B",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1382B",
+        "problem_name": "Sequential Nim",
+        "url": "https://codeforces.com/contest/1382/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1353C",
+        "problem_name": "Board Moves",
+        "url": "https://codeforces.com/contest/1353/problem/C",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "8A",
+        "problem_name": "Train and Peter",
+        "url": "https://codeforces.com/contest/8/problem/A",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2195C",
+        "problem_name": "Dice Roll Sequence",
+        "url": "https://codeforces.com/contest/2195/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2146C",
+        "problem_name": "Wrong Binary Search",
+        "url": "https://codeforces.com/contest/2146/problem/C",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "binary search",
+        "target_rating": 1286,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "977C",
+        "problem_name": "Less or Equal",
+        "url": "https://codeforces.com/contest/977/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787407129.771011
+      },
+      {
+        "problem_id": "1033A",
+        "problem_name": "King Escape",
+        "url": "https://codeforces.com/contest/1033/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1248A",
+        "problem_name": "Integer Points",
+        "url": "https://codeforces.com/contest/1248/problem/A",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2002B",
+        "problem_name": "Removals Game",
+        "url": "https://codeforces.com/contest/2002/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1766B",
+        "problem_name": "Notepad#",
+        "url": "https://codeforces.com/contest/1766/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2130B",
+        "problem_name": "Pathless",
+        "url": "https://codeforces.com/contest/2130/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "127A",
+        "problem_name": "Wasted Time",
+        "url": "https://codeforces.com/contest/127/problem/A",
+        "rating": 900,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "1997B",
+        "problem_name": "Make Three Regions",
+        "url": "https://codeforces.com/contest/1997/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "977C",
+        "problem_name": "Less or Equal",
+        "url": "https://codeforces.com/contest/977/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2002B",
+        "problem_name": "Removals Game",
+        "url": "https://codeforces.com/contest/2002/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787407531.172208
+      },
+      {
+        "problem_id": "2199A",
+        "problem_name": "Game",
+        "url": "https://codeforces.com/contest/2199/problem/A",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1033A",
+        "problem_name": "King Escape",
+        "url": "https://codeforces.com/contest/1033/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1248A",
+        "problem_name": "Integer Points",
+        "url": "https://codeforces.com/contest/1248/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2002B",
+        "problem_name": "Removals Game",
+        "url": "https://codeforces.com/contest/2002/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2130B",
+        "problem_name": "Pathless",
+        "url": "https://codeforces.com/contest/2130/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "177B2",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B2",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "801A",
+        "problem_name": "Vicious Keyboard",
+        "url": "https://codeforces.com/contest/801/problem/A",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1547C",
+        "problem_name": "Pair Programming",
+        "url": "https://codeforces.com/contest/1547/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1766B",
+        "problem_name": "Notepad#",
+        "url": "https://codeforces.com/contest/1766/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1353C",
+        "problem_name": "Board Moves",
+        "url": "https://codeforces.com/contest/1353/problem/C",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2225C",
+        "problem_name": "Red-Black Pairs",
+        "url": "https://codeforces.com/contest/2225/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "977C",
+        "problem_name": "Less or Equal",
+        "url": "https://codeforces.com/contest/977/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787417671.409786
+      },
+      {
+        "problem_id": "1346A",
+        "problem_name": "Color Revolution",
+        "url": "https://codeforces.com/contest/1346/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "*special",
+        "target_rating": 962,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1020B",
+        "problem_name": "Badge",
+        "url": "https://codeforces.com/contest/1020/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1248A",
+        "problem_name": "Integer Points",
+        "url": "https://codeforces.com/contest/1248/problem/A",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "geometry",
+        "target_rating": 993,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "games",
+        "target_rating": 1010,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "579A",
+        "problem_name": "Raising Bacteria",
+        "url": "https://codeforces.com/contest/579/problem/A",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1721B",
+        "problem_name": "Deadly Laser",
+        "url": "https://codeforces.com/contest/1721/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1618C",
+        "problem_name": "Paint the Array",
+        "url": "https://codeforces.com/contest/1618/problem/C",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "constructive algorithms",
+        "target_rating": 1103,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2131C",
+        "problem_name": "Make it Equal",
+        "url": "https://codeforces.com/contest/2131/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "data structures",
+        "target_rating": 1138,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2220B",
+        "problem_name": "OIE Excursion",
+        "url": "https://codeforces.com/contest/2220/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "958C1",
+        "problem_name": "Encryption (easy)",
+        "url": "https://codeforces.com/contest/958/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "brute force",
+        "target_rating": 1158,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "331C1",
+        "problem_name": "The Great Julya Calendar",
+        "url": "https://codeforces.com/contest/331/problem/C1",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1164,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "two pointers",
+        "target_rating": 1180,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1055A",
+        "problem_name": "Metro",
+        "url": "https://codeforces.com/contest/1055/problem/A",
+        "rating": 900,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graphs",
+        "target_rating": 962,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "math",
+        "target_rating": 1087,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "implementation",
+        "target_rating": 1083,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "977C",
+        "problem_name": "Less or Equal",
+        "url": "https://codeforces.com/contest/977/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "sortings",
+        "target_rating": 1102,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "number theory",
+        "target_rating": 1106,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "strings",
+        "target_rating": 1117,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "bitmasks",
+        "target_rating": 1028,
+        "expires_at": 1787417672.095462
+      },
+      {
+        "problem_id": "2060D",
+        "problem_name": "Subtract Min Sort",
+        "url": "https://codeforces.com/contest/2060/problem/D",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "greedy",
+        "target_rating": 1145,
+        "expires_at": 1787417672.095462
+      }
+    ],
+    "rewards": {}
+  },
+  "harshagarwal4761": {
+    "pending": [
+      {
+        "problem_id": "1115G1",
+        "problem_name": "AND oracle",
+        "url": "https://codeforces.com/contest/1115/problem/G1",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "*special",
+        "target_rating": 1006,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2155B",
+        "problem_name": "Abraham's Great Escape",
+        "url": "https://codeforces.com/contest/2155/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "graphs",
+        "target_rating": 1017,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2008D",
+        "problem_name": "Sakurako's Hobby",
+        "url": "https://codeforces.com/contest/2008/problem/D",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dsu",
+        "target_rating": 1017,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "3A",
+        "problem_name": "Shortest path of the king",
+        "url": "https://codeforces.com/contest/3/problem/A",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "shortest paths",
+        "target_rating": 1056,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "630C",
+        "problem_name": "Lucky Numbers",
+        "url": "https://codeforces.com/contest/630/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "combinatorics",
+        "target_rating": 1080,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1311B",
+        "problem_name": "WeirdSort",
+        "url": "https://codeforces.com/contest/1311/problem/B",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "dfs and similar",
+        "target_rating": 1111,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2061B",
+        "problem_name": "Kevin and Geometry",
+        "url": "https://codeforces.com/contest/2061/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "geometry",
+        "target_rating": 1129,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1102C",
+        "problem_name": "Doors Breaking and Repairing",
+        "url": "https://codeforces.com/contest/1102/problem/C",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "games",
+        "target_rating": 1129,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "constructive algorithms",
+        "target_rating": 1144,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "strings",
+        "target_rating": 1160,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1594B",
+        "problem_name": "Special Numbers",
+        "url": "https://codeforces.com/contest/1594/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "bitmasks",
+        "target_rating": 1160,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2210C1",
+        "problem_name": "A Simple GCD Problem (Easy Version)",
+        "url": "https://codeforces.com/contest/2210/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "number theory",
+        "target_rating": 1173,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "math",
+        "target_rating": 1181,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1187,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1800C2",
+        "problem_name": "Powering the Hero (hard version)",
+        "url": "https://codeforces.com/contest/1800/problem/C2",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "data structures",
+        "target_rating": 1192,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "682B",
+        "problem_name": "Alyona and Mex",
+        "url": "https://codeforces.com/contest/682/problem/B",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "sortings",
+        "target_rating": 1197,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1619C",
+        "problem_name": "Wrong Addition",
+        "url": "https://codeforces.com/contest/1619/problem/C",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "implementation",
+        "target_rating": 1206,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1311C",
+        "problem_name": "Perform the Combo",
+        "url": "https://codeforces.com/contest/1311/problem/C",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "brute force",
+        "target_rating": 1222,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "628B",
+        "problem_name": "New Skateboard",
+        "url": "https://codeforces.com/contest/628/problem/B",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dp",
+        "target_rating": 1238,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1366B",
+        "problem_name": "Shuffle",
+        "url": "https://codeforces.com/contest/1366/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1249,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1266,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1311B",
+        "problem_name": "WeirdSort",
+        "url": "https://codeforces.com/contest/1311/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dfs and similar",
+        "target_rating": 1111,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "math",
+        "target_rating": 1181,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2008D",
+        "problem_name": "Sakurako's Hobby",
+        "url": "https://codeforces.com/contest/2008/problem/D",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dsu",
+        "target_rating": 1017,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "628B",
+        "problem_name": "New Skateboard",
+        "url": "https://codeforces.com/contest/628/problem/B",
+        "rating": 1300,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1238,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1102C",
+        "problem_name": "Doors Breaking and Repairing",
+        "url": "https://codeforces.com/contest/1102/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "games",
+        "target_rating": 1129,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1509B",
+        "problem_name": "TMT Document",
+        "url": "https://codeforces.com/contest/1509/problem/B",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "greedy",
+        "target_rating": 1187,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "1619C",
+        "problem_name": "Wrong Addition",
+        "url": "https://codeforces.com/contest/1619/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1206,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1144,
+        "expires_at": 1787404337.525963
+      },
+      {
+        "problem_id": "2094E",
+        "problem_name": "Boneca Ambalabu",
+        "url": "https://codeforces.com/contest/2094/problem/E",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "bitmasks",
+        "target_rating": 1160,
+        "expires_at": 1787404597.671452
+      },
+      {
+        "problem_id": "1594B",
+        "problem_name": "Special Numbers",
+        "url": "https://codeforces.com/contest/1594/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "bitmasks",
+        "target_rating": 1160,
+        "expires_at": 1787404601.111231
+      },
+      {
+        "problem_id": "2248C",
+        "problem_name": "Maximize the Score",
+        "url": "https://codeforces.com/contest/2248/problem/C",
+        "rating": 1300,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dp",
+        "target_rating": 1238,
+        "expires_at": 1787404606.900826
+      },
+      {
+        "problem_id": "2199A",
+        "problem_name": "Game",
+        "url": "https://codeforces.com/contest/2199/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "*special",
+        "target_rating": 1006,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1249B1",
+        "problem_name": "Books Exchange (easy version)",
+        "url": "https://codeforces.com/contest/1249/problem/B1",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dsu",
+        "target_rating": 1017,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1255B",
+        "problem_name": "Fridge Lockers",
+        "url": "https://codeforces.com/contest/1255/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graphs",
+        "target_rating": 1017,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1759C",
+        "problem_name": "Thermostat",
+        "url": "https://codeforces.com/contest/1759/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "shortest paths",
+        "target_rating": 1056,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "630C",
+        "problem_name": "Lucky Numbers",
+        "url": "https://codeforces.com/contest/630/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "combinatorics",
+        "target_rating": 1080,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1433D",
+        "problem_name": "Districts Connection",
+        "url": "https://codeforces.com/contest/1433/problem/D",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dfs and similar",
+        "target_rating": 1111,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1102C",
+        "problem_name": "Doors Breaking and Repairing",
+        "url": "https://codeforces.com/contest/1102/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "games",
+        "target_rating": 1129,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2061B",
+        "problem_name": "Kevin and Geometry",
+        "url": "https://codeforces.com/contest/2061/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "geometry",
+        "target_rating": 1129,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2118B",
+        "problem_name": "Make It Permutation",
+        "url": "https://codeforces.com/contest/2118/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "constructive algorithms",
+        "target_rating": 1144,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "strings",
+        "target_rating": 1160,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1160,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "177B2",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B2",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "number theory",
+        "target_rating": 1173,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2184B",
+        "problem_name": "Hourglass",
+        "url": "https://codeforces.com/contest/2184/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1181,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "greedy",
+        "target_rating": 1189,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1192,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "682B",
+        "problem_name": "Alyona and Mex",
+        "url": "https://codeforces.com/contest/682/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "sortings",
+        "target_rating": 1203,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1556B",
+        "problem_name": "Take Your Places!",
+        "url": "https://codeforces.com/contest/1556/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "implementation",
+        "target_rating": 1206,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1555B",
+        "problem_name": "Two Tables",
+        "url": "https://codeforces.com/contest/1555/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "brute force",
+        "target_rating": 1222,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "628B",
+        "problem_name": "New Skateboard",
+        "url": "https://codeforces.com/contest/628/problem/B",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "dp",
+        "target_rating": 1238,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1776H",
+        "problem_name": "Beppa and SwerChat",
+        "url": "https://codeforces.com/contest/1776/problem/H",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "two pointers",
+        "target_rating": 1249,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "binary search",
+        "target_rating": 1266,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2061B",
+        "problem_name": "Kevin and Geometry",
+        "url": "https://codeforces.com/contest/2061/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 1129,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1001A",
+        "problem_name": "Generate plus state or minus state",
+        "url": "https://codeforces.com/contest/1001/problem/A",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "*special",
+        "target_rating": 1006,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1364B",
+        "problem_name": "Most socially-distanced subsequence",
+        "url": "https://codeforces.com/contest/1364/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1249,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1192,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "greedy",
+        "target_rating": 1189,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "binary search",
+        "target_rating": 1266,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1527B1",
+        "problem_name": "Palindrome Game (easy version)",
+        "url": "https://codeforces.com/contest/1527/problem/B1",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "games",
+        "target_rating": 1129,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "3A",
+        "problem_name": "Shortest path of the king",
+        "url": "https://codeforces.com/contest/3/problem/A",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "shortest paths",
+        "target_rating": 1056,
+        "expires_at": 1787406468.050815
+      },
+      {
+        "problem_id": "1115G1",
+        "problem_name": "AND oracle",
+        "url": "https://codeforces.com/contest/1115/problem/G1",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "*special",
+        "target_rating": 1006,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2008D",
+        "problem_name": "Sakurako's Hobby",
+        "url": "https://codeforces.com/contest/2008/problem/D",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "dsu",
+        "target_rating": 1017,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1255B",
+        "problem_name": "Fridge Lockers",
+        "url": "https://codeforces.com/contest/1255/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "graphs",
+        "target_rating": 1017,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "370A",
+        "problem_name": "Rook, Bishop and King",
+        "url": "https://codeforces.com/contest/370/problem/A",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "shortest paths",
+        "target_rating": 1056,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2240B",
+        "problem_name": "AI Finds Nothing Here",
+        "url": "https://codeforces.com/contest/2240/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "combinatorics",
+        "target_rating": 1080,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1433D",
+        "problem_name": "Districts Connection",
+        "url": "https://codeforces.com/contest/1433/problem/D",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dfs and similar",
+        "target_rating": 1111,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "842B",
+        "problem_name": "Gleb And Pizza",
+        "url": "https://codeforces.com/contest/842/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "geometry",
+        "target_rating": 1129,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1527B1",
+        "problem_name": "Palindrome Game (easy version)",
+        "url": "https://codeforces.com/contest/1527/problem/B1",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "games",
+        "target_rating": 1129,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "constructive algorithms",
+        "target_rating": 1144,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2149D",
+        "problem_name": "A and B",
+        "url": "https://codeforces.com/contest/2149/problem/D",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "strings",
+        "target_rating": 1160,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2094E",
+        "problem_name": "Boneca Ambalabu",
+        "url": "https://codeforces.com/contest/2094/problem/E",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "bitmasks",
+        "target_rating": 1160,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2131C",
+        "problem_name": "Make it Equal",
+        "url": "https://codeforces.com/contest/2131/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "number theory",
+        "target_rating": 1173,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "math",
+        "target_rating": 1181,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1189,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "data structures",
+        "target_rating": 1192,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1203,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1619C",
+        "problem_name": "Wrong Addition",
+        "url": "https://codeforces.com/contest/1619/problem/C",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "implementation",
+        "target_rating": 1206,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1555B",
+        "problem_name": "Two Tables",
+        "url": "https://codeforces.com/contest/1555/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "brute force",
+        "target_rating": 1222,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2248C",
+        "problem_name": "Maximize the Score",
+        "url": "https://codeforces.com/contest/2248/problem/C",
+        "rating": 1300,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dp",
+        "target_rating": 1238,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1669G",
+        "problem_name": "Fall Down",
+        "url": "https://codeforces.com/contest/1669/problem/G",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dfs and similar",
+        "target_rating": 1111,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1619C",
+        "problem_name": "Wrong Addition",
+        "url": "https://codeforces.com/contest/1619/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1206,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "1944B",
+        "problem_name": "Equal XOR",
+        "url": "https://codeforces.com/contest/1944/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "bitmasks",
+        "target_rating": 1160,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "501B",
+        "problem_name": "Misha and Changing Handles",
+        "url": "https://codeforces.com/contest/501/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dsu",
+        "target_rating": 1017,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2184B",
+        "problem_name": "Hourglass",
+        "url": "https://codeforces.com/contest/2184/problem/B",
+        "rating": 1100,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1181,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "682B",
+        "problem_name": "Alyona and Mex",
+        "url": "https://codeforces.com/contest/682/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "sortings",
+        "target_rating": 1203,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "628B",
+        "problem_name": "New Skateboard",
+        "url": "https://codeforces.com/contest/628/problem/B",
+        "rating": 1300,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dp",
+        "target_rating": 1238,
+        "expires_at": 1787417703.942213
+      },
+      {
+        "problem_id": "2240B",
+        "problem_name": "AI Finds Nothing Here",
+        "url": "https://codeforces.com/contest/2240/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "combinatorics",
+        "target_rating": 1080,
+        "expires_at": 1787417703.942213
+      }
+    ],
+    "rewards": {}
+  },
+  "nishantjadaun26": {
+    "pending": [
+      {
+        "problem_id": "1249B1",
+        "problem_name": "Books Exchange (easy version)",
+        "url": "https://codeforces.com/contest/1249/problem/B1",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dsu",
+        "target_rating": 950,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1033A",
+        "problem_name": "King Escape",
+        "url": "https://codeforces.com/contest/1033/problem/A",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "graphs",
+        "target_rating": 950,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "127A",
+        "problem_name": "Wasted Time",
+        "url": "https://codeforces.com/contest/127/problem/A",
+        "rating": 900,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 997,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2199A",
+        "problem_name": "Game",
+        "url": "https://codeforces.com/contest/2199/problem/A",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "*special",
+        "target_rating": 1003,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "630C",
+        "problem_name": "Lucky Numbers",
+        "url": "https://codeforces.com/contest/630/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "combinatorics",
+        "target_rating": 1042,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1979B",
+        "problem_name": "XOR Sequences",
+        "url": "https://codeforces.com/contest/1979/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "bitmasks",
+        "target_rating": 1047,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2192B",
+        "problem_name": "Flipping Binary String",
+        "url": "https://codeforces.com/contest/2192/problem/B",
+        "rating": 1000,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "strings",
+        "target_rating": 1048,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "177B1",
+        "problem_name": "Rectangular Game",
+        "url": "https://codeforces.com/contest/177/problem/B1",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "number theory",
+        "target_rating": 1058,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1695B",
+        "problem_name": "Circle Game",
+        "url": "https://codeforces.com/contest/1695/problem/B",
+        "rating": 1000,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "games",
+        "target_rating": 1059,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "648C",
+        "problem_name": "\u041f\u0443\u0442\u044c \u0420\u043e\u0431\u043e\u0442\u0430",
+        "url": "https://codeforces.com/contest/648/problem/C",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "dfs and similar",
+        "target_rating": 1063,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2147B",
+        "problem_name": "Multiple Construction",
+        "url": "https://codeforces.com/contest/2147/problem/B",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "constructive algorithms",
+        "target_rating": 1078,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1610B",
+        "problem_name": "Kalindrome Array",
+        "url": "https://codeforces.com/contest/1610/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "two pointers",
+        "target_rating": 1079,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2000C",
+        "problem_name": "Numeric String Template",
+        "url": "https://codeforces.com/contest/2000/problem/C",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "data structures",
+        "target_rating": 1085,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1841B",
+        "problem_name": "Keep it Beautiful",
+        "url": "https://codeforces.com/contest/1841/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "implementation",
+        "target_rating": 1086,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1496B",
+        "problem_name": "Max and Mex",
+        "url": "https://codeforces.com/contest/1496/problem/B",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "math",
+        "target_rating": 1106,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1945C",
+        "problem_name": "Left and Right Houses",
+        "url": "https://codeforces.com/contest/1945/problem/C",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "brute force",
+        "target_rating": 1107,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1509B",
+        "problem_name": "TMT Document",
+        "url": "https://codeforces.com/contest/1509/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "greedy",
+        "target_rating": 1109,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2061B",
+        "problem_name": "Kevin and Geometry",
+        "url": "https://codeforces.com/contest/2061/problem/B",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "binary search",
+        "target_rating": 1141,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "682B",
+        "problem_name": "Alyona and Mex",
+        "url": "https://codeforces.com/contest/682/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1151,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2195C",
+        "problem_name": "Dice Roll Sequence",
+        "url": "https://codeforces.com/contest/2195/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "dp",
+        "target_rating": 1177,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1766B",
+        "problem_name": "Notepad#",
+        "url": "https://codeforces.com/contest/1766/problem/B",
+        "rating": 1000,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "implementation",
+        "target_rating": 1086,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "958C1",
+        "problem_name": "Encryption (easy)",
+        "url": "https://codeforces.com/contest/958/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "brute force",
+        "target_rating": 1107,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2131C",
+        "problem_name": "Make it Equal",
+        "url": "https://codeforces.com/contest/2131/problem/C",
+        "rating": 1100,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "number theory",
+        "target_rating": 1058,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2245B",
+        "problem_name": "Delete and Concatenate",
+        "url": "https://codeforces.com/contest/2245/problem/B",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "greedy",
+        "target_rating": 1109,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "630C",
+        "problem_name": "Lucky Numbers",
+        "url": "https://codeforces.com/contest/630/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "combinatorics",
+        "target_rating": 1042,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2147B",
+        "problem_name": "Multiple Construction",
+        "url": "https://codeforces.com/contest/2147/problem/B",
+        "rating": 1000,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "constructive algorithms",
+        "target_rating": 1078,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "1760D",
+        "problem_name": "Challenging Valleys",
+        "url": "https://codeforces.com/contest/1760/problem/D",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1079,
+        "expires_at": 1787405084.007116
+      },
+      {
+        "problem_id": "2199A",
+        "problem_name": "Game",
+        "url": "https://codeforces.com/contest/2199/problem/A",
+        "rating": 1000,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "*special",
+        "target_rating": 1003,
+        "expires_at": 1787405084.007116
+      }
+    ],
+    "rewards": {}
+  },
+  "anujparwal": {
+    "pending": [
+      {
+        "problem_id": "1001H",
+        "problem_name": "Oracle for f(x) = parity of the number of 1s in x",
+        "url": "https://codeforces.com/contest/1001/problem/H",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "*special",
+        "target_rating": 1135,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1729C",
+        "problem_name": "Jumping on Tiles",
+        "url": "https://codeforces.com/contest/1729/problem/C",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "strings",
+        "target_rating": 1145,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2172E",
+        "problem_name": "Number Maze",
+        "url": "https://codeforces.com/contest/2172/problem/E",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "implementation",
+        "target_rating": 1146,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2137D",
+        "problem_name": "Replace with Occurrences",
+        "url": "https://codeforces.com/contest/2137/problem/D",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1171,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "902B",
+        "problem_name": "Coloring a Tree",
+        "url": "https://codeforces.com/contest/902/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "dsu",
+        "target_rating": 1172,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "400B",
+        "problem_name": "Inna and New Matrix of Candies",
+        "url": "https://codeforces.com/contest/400/problem/B",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "schedules",
+        "target_rating": 1172,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1624C",
+        "problem_name": "Division by Two and Permutation",
+        "url": "https://codeforces.com/contest/1624/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "graph matchings",
+        "target_rating": 1172,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "370A",
+        "problem_name": "Rook, Bishop and King",
+        "url": "https://codeforces.com/contest/370/problem/A",
+        "rating": 1100,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "shortest paths",
+        "target_rating": 1178,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2182C",
+        "problem_name": "Production of Snowmen",
+        "url": "https://codeforces.com/contest/2182/problem/C",
+        "rating": 1200,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "combinatorics",
+        "target_rating": 1184,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1559C",
+        "problem_name": "Mocha and Hiking",
+        "url": "https://codeforces.com/contest/1559/problem/C",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graphs",
+        "target_rating": 1185,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1433D",
+        "problem_name": "Districts Connection",
+        "url": "https://codeforces.com/contest/1433/problem/D",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "dfs and similar",
+        "target_rating": 1186,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1747C",
+        "problem_name": "Swap Game",
+        "url": "https://codeforces.com/contest/1747/problem/C",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "games",
+        "target_rating": 1191,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2135A",
+        "problem_name": "Against the Difference",
+        "url": "https://codeforces.com/contest/2135/problem/A",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "dp",
+        "target_rating": 1197,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "958C1",
+        "problem_name": "Encryption (easy)",
+        "url": "https://codeforces.com/contest/958/problem/C1",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "brute force",
+        "target_rating": 1200,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1877C",
+        "problem_name": "Joyboard",
+        "url": "https://codeforces.com/contest/1877/problem/C",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "number theory",
+        "target_rating": 1202,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1371B",
+        "problem_name": "Magical Calendar",
+        "url": "https://codeforces.com/contest/1371/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "math",
+        "target_rating": 1204,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "682B",
+        "problem_name": "Alyona and Mex",
+        "url": "https://codeforces.com/contest/682/problem/B",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1206,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2094E",
+        "problem_name": "Boneca Ambalabu",
+        "url": "https://codeforces.com/contest/2094/problem/E",
+        "rating": 1200,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "bitmasks",
+        "target_rating": 1218,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1693A",
+        "problem_name": "Directional Increase",
+        "url": "https://codeforces.com/contest/1693/problem/A",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "greedy",
+        "target_rating": 1221,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "227A",
+        "problem_name": "Where do I Turn?",
+        "url": "https://codeforces.com/contest/227/problem/A",
+        "rating": 1300,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "geometry",
+        "target_rating": 1241,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1776H",
+        "problem_name": "Beppa and SwerChat",
+        "url": "https://codeforces.com/contest/1776/problem/H",
+        "rating": 1300,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "two pointers",
+        "target_rating": 1246,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "486B",
+        "problem_name": "OR in Matrix",
+        "url": "https://codeforces.com/contest/486/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "hashing",
+        "target_rating": 1251,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2117C",
+        "problem_name": "Cool Partition",
+        "url": "https://codeforces.com/contest/2117/problem/C",
+        "rating": 1200,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "data structures",
+        "target_rating": 1292,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2206K",
+        "problem_name": "Time Display Stickers",
+        "url": "https://codeforces.com/contest/2206/problem/K",
+        "rating": 1300,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "binary search",
+        "target_rating": 1311,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1624C",
+        "problem_name": "Division by Two and Permutation",
+        "url": "https://codeforces.com/contest/1624/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "graph matchings",
+        "target_rating": 1172,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "400B",
+        "problem_name": "Inna and New Matrix of Candies",
+        "url": "https://codeforces.com/contest/400/problem/B",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "schedules",
+        "target_rating": 1172,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1174B",
+        "problem_name": "Ehab Is an Odd Person",
+        "url": "https://codeforces.com/contest/1174/problem/B",
+        "rating": 1200,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "sortings",
+        "target_rating": 1206,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1675C",
+        "problem_name": "Detective Task",
+        "url": "https://codeforces.com/contest/1675/problem/C",
+        "rating": 1100,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "implementation",
+        "target_rating": 1146,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1759C",
+        "problem_name": "Thermostat",
+        "url": "https://codeforces.com/contest/1759/problem/C",
+        "rating": 1100,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "shortest paths",
+        "target_rating": 1178,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1002D1",
+        "problem_name": "Oracle for f(x) = b * x mod 2",
+        "url": "https://codeforces.com/contest/1002/problem/D1",
+        "rating": 1200,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "*special",
+        "target_rating": 1135,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "1366B",
+        "problem_name": "Shuffle",
+        "url": "https://codeforces.com/contest/1366/problem/B",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1246,
+        "expires_at": 1787406601.21438
+      },
+      {
+        "problem_id": "2195D",
+        "problem_name": "Absolute Cinema",
+        "url": "https://codeforces.com/contest/2195/problem/D",
+        "rating": 1300,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "math",
+        "target_rating": 1204,
+        "expires_at": 1787406601.21438
+      }
+    ],
+    "rewards": {}
+  },
+  "id_404": {
+    "pending": [
+      {
+        "problem_id": "227A",
+        "problem_name": "Where do I Turn?",
+        "url": "https://codeforces.com/contest/227/problem/A",
+        "rating": 1300,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "geometry",
+        "target_rating": 1278,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "1002B1",
+        "problem_name": "Distinguish zero state and W state",
+        "url": "https://codeforces.com/contest/1002/problem/B1",
+        "rating": 1300,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "*special",
+        "target_rating": 1278,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "2149E",
+        "problem_name": "Hidden Knowledge of the Ancients",
+        "url": "https://codeforces.com/contest/2149/problem/E",
+        "rating": 1500,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "two pointers",
+        "target_rating": 1431,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "1101C",
+        "problem_name": "Division and Union",
+        "url": "https://codeforces.com/contest/1101/problem/C",
+        "rating": 1500,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "sortings",
+        "target_rating": 1435,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "584B",
+        "problem_name": "Kolya and Tanya ",
+        "url": "https://codeforces.com/contest/584/problem/B",
+        "rating": 1500,
+        "reason": "Targeted practice \u2014 highly relevant to recent struggles.",
+        "tag": "combinatorics",
+        "target_rating": 1464,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "1368C",
+        "problem_name": "Even Picture",
+        "url": "https://codeforces.com/contest/1368/problem/C",
+        "rating": 1500,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "constructive algorithms",
+        "target_rating": 1469,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "50B",
+        "problem_name": "Choosing Symbol Pairs",
+        "url": "https://codeforces.com/contest/50/problem/B",
+        "rating": 1500,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "strings",
+        "target_rating": 1484,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "1002B1",
+        "problem_name": "Distinguish zero state and W state",
+        "url": "https://codeforces.com/contest/1002/problem/B1",
+        "rating": 1300,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "*special",
+        "target_rating": 1278,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "334B",
+        "problem_name": "Eight Point Sets",
+        "url": "https://codeforces.com/contest/334/problem/B",
+        "rating": 1400,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "sortings",
+        "target_rating": 1435,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "50B",
+        "problem_name": "Choosing Symbol Pairs",
+        "url": "https://codeforces.com/contest/50/problem/B",
+        "rating": 1500,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "strings",
+        "target_rating": 1484,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "1955D",
+        "problem_name": "Inaccurate Subsequence Search",
+        "url": "https://codeforces.com/contest/1955/problem/D",
+        "rating": 1400,
+        "reason": "Fundamentals check \u2014 cementing a known weak point.",
+        "tag": "two pointers",
+        "target_rating": 1431,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "750B",
+        "problem_name": "New Year and North Pole",
+        "url": "https://codeforces.com/contest/750/problem/B",
+        "rating": 1300,
+        "reason": "Stretch pick \u2014 slightly above your comfort zone in this area.",
+        "tag": "geometry",
+        "target_rating": 1278,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "288B",
+        "problem_name": "Polo the Penguin and Houses ",
+        "url": "https://codeforces.com/contest/288/problem/B",
+        "rating": 1500,
+        "reason": "Blind spot check \u2014 testing an area you've been avoiding.",
+        "tag": "combinatorics",
+        "target_rating": 1464,
+        "expires_at": 1787407598.498736
+      },
+      {
+        "problem_id": "803A",
+        "problem_name": "Maximal Binary Matrix",
+        "url": "https://codeforces.com/contest/803/problem/A",
+        "rating": 1400,
+        "reason": "Strategic pick \u2014 high ROI for your current rating.",
+        "tag": "constructive algorithms",
+        "target_rating": 1469,
+        "expires_at": 1787407598.498736
+      }
+    ],
+    "rewards": {}
+  }
+}

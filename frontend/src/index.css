@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-main: #0B0C0E;
+    --bg-surface: #141518;
+    --border-color: #232428;
+    
+    --accent: #808080; /* default fallback Newbie gray */
+    --accent-rgb: 128, 128, 128;
+    
+    /* CF Verdicts */
+    --verdict-ac: #10b981;
+    --verdict-wa: #ef4444;
+    --verdict-tle: #64748b;
+    --verdict-mle: #a855f7;
+    --verdict-re: #f97316;
+    --verdict-ce: #eab308;
+  }
+  
+  body {
+    @apply bg-[var(--bg-main)] text-white font-sans;
+    background-color: var(--bg-main);
+  }
+}
+
+/* Custom Scrollbar for a premium look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--border-color); 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent); 
+}

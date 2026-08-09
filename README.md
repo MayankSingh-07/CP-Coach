@@ -65,10 +65,24 @@ npm install
 npm run dev
 ```
 
-### 3. Chrome Extension
+### 3. Chrome Extension (Developer Mode)
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable **Developer mode** in the top right.
 3. Click **Load unpacked** and select the `extension` folder in this repository.
+
+---
+
+## Deploying & Sharing with Friends
+
+Because the backend is configured for cloud deployment (via Render) and the frontend for Vercel, you can easily share this with your friends!
+
+### Installing the Cloud-Connected Extension
+If you have downloaded or received the `cp-coach-extension.zip` file:
+1. Extract/unzip the file into a folder.
+2. Open Chrome and navigate to `chrome://extensions/`
+3. Enable **Developer mode** in the top right corner.
+4. Click **Load unpacked** and select the extracted folder.
+5. Pin the extension and click it! It is pre-configured to talk to the live cloud backend, so it works 24/7 without you needing to run any code locally.
 
 ---
 

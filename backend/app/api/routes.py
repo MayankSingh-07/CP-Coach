@@ -59,10 +59,10 @@ async def analyze_profile(handle: str, force_refresh: bool = False, db: AsyncSes
         
         # Sync tracking layer first so bandit offsets include latest rewards
         from app.services.tracking import sync_and_calculate_rewards, save_recommendations
-        sync_and_calculate_rewards(handle, submissions)
+        tracked_rewards = await sync_and_calculate_rewards(handle, submissions, db)
         
         # O(N) single-pass advanced processing
-        processed_data = process_user_data(submissions, user_info, problemset)
+        processed_data = process_user_data(submissions, user_info, problemset, tracked_rewards)
         tag_analysis = processed_data.get("tag_analysis", [])
         stats = processed_data.get("stats", {})
         tag_coverage = processed_data.get("tag_coverage", {})
@@ -74,7 +74,7 @@ async def analyze_profile(handle: str, force_refresh: bool = False, db: AsyncSes
         # We must clone them before we strip tags so the tracker knows what tag they belong to
         import copy
         all_recs = copy.deepcopy(roadmap.get("recommended_problems", [])) + copy.deepcopy(upsolve.get("recommended_problems", []))
-        save_recommendations(handle, all_recs)
+        await save_recommendations(handle, all_recs, db)
         
         # Strip tags from upsolve per option A (spoiler-free default)
         for r in upsolve.get("recommended_problems", []):
@@ -97,7 +97,7 @@ async def analyze_profile(handle: str, force_refresh: bool = False, db: AsyncSes
         raise HTTPException(status_code=400, detail=str(e))
 
 @router.post("/practice/target")
-async def get_target_practice(req: TargetPracticeRequest):
+async def get_target_practice(req: TargetPracticeRequest, db: AsyncSession = Depends(get_db)):
     try:
         from datetime import datetime
         handle = req.handle
@@ -110,9 +110,12 @@ async def get_target_practice(req: TargetPracticeRequest):
             get_problemset(force_refresh)
         )
         
+        from app.services.tracking import get_tracked_rewards
+        tracked_rewards = await get_tracked_rewards(handle, db)
+        
         # We need the tag's target rating, which means running process_user_data
         # to get classifications and bandit offsets.
-        processed_data = process_user_data(submissions, user_info, problemset)
+        processed_data = process_user_data(submissions, user_info, problemset, tracked_rewards)
         tag_analysis = processed_data.get("tag_analysis", [])
         
         target_rating = 800
@@ -131,7 +134,7 @@ async def get_target_practice(req: TargetPracticeRequest):
         if recs:
             from app.services.tracking import save_recommendations
             import copy
-            save_recommendations(handle, copy.deepcopy(recs))
+            await save_recommendations(handle, copy.deepcopy(recs), db)
             
         return {
             "tag": tag,
@@ -150,7 +153,10 @@ async def get_badge_data(handle: str, db: AsyncSession = Depends(get_db)):
             get_problemset()
         )
         
-        processed_data = process_user_data(submissions, user_info, problemset)
+        from app.services.tracking import get_tracked_rewards
+        tracked_rewards = await get_tracked_rewards(handle, db)
+        
+        processed_data = process_user_data(submissions, user_info, problemset, tracked_rewards)
         tag_analysis = processed_data.get("tag_analysis", [])
         # Filter weak tags and sort them to find the most critical ones
         weak_tags_list = [t for t in tag_analysis if t["state"] in ["Avoided", "Confirmed Weak"]]
@@ -217,7 +223,11 @@ async def get_recommendation(handle: str, db: AsyncSession = Depends(get_db)):
         )
         
         user_rating = user_info.get("rating", 0)
-        processed_data = process_user_data(submissions, user_info, problemset)
+        
+        from app.services.tracking import get_tracked_rewards
+        tracked_rewards = await get_tracked_rewards(handle, db)
+        
+        processed_data = process_user_data(submissions, user_info, problemset, tracked_rewards)
         tag_analysis = processed_data.get("tag_analysis", [])
         
         # We reuse upsolve recommendations since they are spoiler-safe by design

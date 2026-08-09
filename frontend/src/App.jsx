@@ -44,7 +44,8 @@ function App() {
     setIsSyncing(true);
     
     try {
-        const url = new URL(`http://localhost:8000/api/v1/analyze/${targetHandle}`);
+        const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+        const url = new URL(`${API_BASE}/api/v1/analyze/${targetHandle}`);
         if (forceRefresh) {
             url.searchParams.append('force_refresh', 'true');
         }

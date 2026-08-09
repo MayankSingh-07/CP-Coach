@@ -8,7 +8,8 @@ from app.services.tracking import get_tracked_rewards
 def process_user_data(
     all_submissions: List[Dict[str, Any]], 
     user_info: Dict[str, Any], 
-    problemset: List[Dict[str, Any]]
+    problemset: List[Dict[str, Any]],
+    tracked_rewards: Dict[str, float] = None
 ) -> Dict[str, Any]:
     
     # 1. Data Ingestion & API Constraints
@@ -35,7 +36,7 @@ def process_user_data(
     practice_ratings = _compute_ratings(practice_subs, user_info)
     
     # 5. Bandit Recommender
-    dynamic_offsets = _compute_bandit_offsets(practice_subs, practice_ratings, handle)
+    dynamic_offsets = _compute_bandit_offsets(practice_subs, practice_ratings, handle, tracked_rewards)
     
     # Build final output format
     tag_analysis = []
@@ -220,7 +221,7 @@ def _compute_ratings(subs: List[Dict[str, Any]], user_info: Dict[str, Any]):
         
     return tag_ratings
 
-def _compute_bandit_offsets(practice_subs: List[Dict[str, Any]], practice_ratings: Dict[str, Any], handle: str = ""):
+def _compute_bandit_offsets(practice_subs: List[Dict[str, Any]], practice_ratings: Dict[str, Any], handle: str = "", tracked_rewards: Dict[str, float] = None):
     attempts_per_prob = defaultdict(list)
     for sub in practice_subs:
         prob = sub.get("problem", {})
@@ -232,10 +233,12 @@ def _compute_bandit_offsets(practice_subs: List[Dict[str, Any]], practice_rating
     tag_rewards = defaultdict(list)
     tag_dynamic_offsets = defaultdict(lambda: 150)
     
-    if handle:
-        tracked = get_tracked_rewards(handle)
-        for t, r_list in tracked.items():
-            tag_rewards[t].extend(r_list)
+    if handle and tracked_rewards:
+        for t, r_val in tracked_rewards.items():
+            # In the new logic, we just track a single scalar reward_value per tag
+            # The previous JSON logic kept a list of rewards. For compatibility with the bandit,
+            # we will treat this single dampended value as a recent average.
+            tag_rewards[t].append(r_val)
     
     for prob_id, attempts in attempts_per_prob.items():
         prob = attempts[0].get("problem", {})

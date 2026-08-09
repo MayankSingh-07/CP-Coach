@@ -1,56 +1,66 @@
-import json
-import os
 import datetime
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.future import select
+from sqlalchemy import delete
+from app.models.tracking import UserTracking, PendingRecommendation, TagReward
 
-TRACKING_FILE = os.path.join(os.path.dirname(__file__), "..", "..", "data", "recommendations.json")
-
-def _load_data():
-    if not os.path.exists(TRACKING_FILE):
-        return {}
-    try:
-        with open(TRACKING_FILE, "r") as f:
-            return json.load(f)
-    except:
-        return {}
-
-def _save_data(data):
-    os.makedirs(os.path.dirname(TRACKING_FILE), exist_ok=True)
-    with open(TRACKING_FILE, "w") as f:
-        json.dump(data, f, indent=2)
-
-def save_recommendations(handle: str, recommendations: list):
+async def save_recommendations(handle: str, recommendations: list, db: AsyncSession):
     """
     Saves a batch of recommended problems.
     recommendations = [{"problem_id": "123A", "tag": "graphs", "target_rating": 1500, "timestamp": 123456}]
     """
-    data = _load_data()
-    if handle not in data:
-        data[handle] = {"pending": [], "rewards": {}}
-        
+    # Ensure user exists
+    stmt = select(UserTracking).where(UserTracking.handle == handle)
+    result = await db.execute(stmt)
+    user = result.scalar_one_or_none()
+    
+    if not user:
+        user = UserTracking(handle=handle)
+        db.add(user)
+        await db.commit()
+        await db.refresh(user)
+
     now = datetime.datetime.utcnow().timestamp()
     
-    # Add new recommendations
     for r in recommendations:
-        r["expires_at"] = now + (14 * 24 * 60 * 60) # 14 days
-        data[handle]["pending"].append(r)
+        expires_at = now + (14 * 24 * 60 * 60) # 14 days
+        new_rec = PendingRecommendation(
+            user_handle=handle,
+            problem_id=r["problem_id"],
+            tag=r["tag"],
+            target_rating=r["target_rating"],
+            timestamp=r.get("timestamp", now),
+            expires_at=expires_at
+        )
+        db.add(new_rec)
         
-    _save_data(data)
+    await db.commit()
 
-def sync_and_calculate_rewards(handle: str, submissions: list):
+async def sync_and_calculate_rewards(handle: str, submissions: list, db: AsyncSession):
     """
     Checks pending recommendations against new submissions to compute rewards.
     Returns the accumulated rewards per tag.
     """
-    data = _load_data()
-    if handle not in data:
+    # Get user
+    stmt = select(UserTracking).where(UserTracking.handle == handle)
+    result = await db.execute(stmt)
+    user = result.scalar_one_or_none()
+    
+    if not user:
         return {}
         
-    user_data = data[handle]
-    pending = user_data.get("pending", [])
-    rewards = user_data.setdefault("rewards", {})
+    # Get pending recs
+    stmt = select(PendingRecommendation).where(PendingRecommendation.user_handle == handle)
+    result = await db.execute(stmt)
+    pending = result.scalars().all()
+    
+    # Get current rewards
+    stmt = select(TagReward).where(TagReward.user_handle == handle)
+    result = await db.execute(stmt)
+    current_rewards = {r.tag: r for r in result.scalars().all()}
     
     if not pending:
-        return rewards
+        return {tag: r.reward_value for tag, r in current_rewards.items()}
         
     now = datetime.datetime.utcnow().timestamp()
     
@@ -63,21 +73,20 @@ def sync_and_calculate_rewards(handle: str, submissions: list):
             subs_by_prob[prob_id] = []
         subs_by_prob[prob_id].append(sub)
         
-    new_pending = []
+    recs_to_delete = []
     
     for req in pending:
-        prob_id = req["problem_id"]
-        tag = req["tag"]
-        target = req["target_rating"]
+        prob_id = req.problem_id
+        tag = req.tag
         
         # Did it expire?
-        if now > req["expires_at"]:
+        if now > req.expires_at:
+            recs_to_delete.append(req)
             continue # Drop it
             
         # Check submissions after the recommendation was made
-        rel_subs = [s for s in subs_by_prob.get(prob_id, []) if s.get("creationTimeSeconds", 0) >= req["timestamp"]]
+        rel_subs = [s for s in subs_by_prob.get(prob_id, []) if s.get("creationTimeSeconds", 0) >= req.timestamp]
         if not rel_subs:
-            new_pending.append(req)
             continue
             
         # We have submissions! Calculate reward based on Section 5 rules
@@ -119,19 +128,27 @@ def sync_and_calculate_rewards(handle: str, submissions: list):
             reward = 0.0
             
         if reward is not None:
-            if tag not in rewards:
-                rewards[tag] = []
-            rewards[tag].append(reward)
-            # Do not keep in pending if resolved
-        else:
-            # Still working on it (e.g. 2 WA)
-            new_pending.append(req)
+            # Update DB reward
+            if tag not in current_rewards:
+                tr = TagReward(user_handle=handle, tag=tag, reward_value=0.0)
+                db.add(tr)
+                current_rewards[tag] = tr
             
-    user_data["pending"] = new_pending
-    _save_data(data)
+            # Dampen updates
+            current_rewards[tag].reward_value = 0.8 * current_rewards[tag].reward_value + 0.2 * reward
+            
+            # The problem was attempted heavily or solved, so we drop it from pending
+            recs_to_delete.append(req)
+            
+    # Delete resolved/expired recommendations
+    for req in recs_to_delete:
+        await db.delete(req)
+        
+    await db.commit()
     
-    return rewards
+    return {tag: r.reward_value for tag, r in current_rewards.items()}
 
-def get_tracked_rewards(handle: str):
-    data = _load_data()
-    return data.get(handle, {}).get("rewards", {})
+async def get_tracked_rewards(handle: str, db: AsyncSession):
+    stmt = select(TagReward).where(TagReward.user_handle == handle)
+    result = await db.execute(stmt)
+    return {r.tag: r.reward_value for r in result.scalars().all()}

@@ -1,9 +1,20 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 from app.api.routes import router as core_router
 from app.api.chat import router as chat_router
 
-app = FastAPI(title="AI Competitive Programming Coach")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Initialize DB tables
+    from app.core.database import engine, Base
+    from app.models.tracking import UserTracking # Import so they register with Base
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+    yield
+    await engine.dispose()
+
+app = FastAPI(title="AI Competitive Programming Coach", lifespan=lifespan)
 
 # Configure CORS for frontend access
 app.add_middleware(

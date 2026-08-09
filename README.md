@@ -72,17 +72,16 @@ npm run dev
 
 ---
 
-## Deploying & Sharing with Friends
+## Installing the Extension
 
-Because the backend is configured for cloud deployment (via Render) and the frontend for Vercel, you can easily share this with your friends!
+CP Coach is fully hosted in the cloud, so you don't need to run any local servers to use it! Just install the Chrome extension to get started:
 
-### Installing the Cloud-Connected Extension
-If you have downloaded or received the `cp-coach-extension.zip` file:
-1. Extract/unzip the file into a folder.
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable **Developer mode** in the top right corner.
-4. Click **Load unpacked** and select the extracted folder.
-5. Pin the extension and click it! It is pre-configured to talk to the live cloud backend, so it works 24/7 without you needing to run any code locally.
+1. Download the `cp-coach-extension.zip` file.
+2. Extract/unzip the file into a folder on your computer.
+3. Open Chrome and navigate to `chrome://extensions/`
+4. Enable **Developer mode** in the top right corner.
+5. Click **Load unpacked** and select the extracted folder.
+6. Pin the extension to your browser bar. That's it! It will automatically communicate with the cloud backend and dashboard.
 
 ---
 

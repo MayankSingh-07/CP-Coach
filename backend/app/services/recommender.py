@@ -313,6 +313,7 @@ def _calculate_basic_stats(submissions, user_info):
     activity_grid = defaultdict(int)
     langs = defaultdict(int)
     solve_days = set()
+    ist_offset = datetime.timedelta(hours=5, minutes=30)
     
     for sub in submissions:
         prob = sub.get("problem", {})
@@ -324,7 +325,7 @@ def _calculate_basic_stats(submissions, user_info):
         
         ts = sub.get("creationTimeSeconds", 0)
         if ts > 0:
-            dt = datetime.datetime.fromtimestamp(ts)
+            dt = datetime.datetime.utcfromtimestamp(ts) + ist_offset
             activity_grid[f"{dt.weekday()},{dt.hour}"] += 1
             
         if verdict == "OK":
@@ -351,13 +352,9 @@ def _calculate_basic_stats(submissions, user_info):
             else:
                 streak = 1
                 
-        if (datetime.date.today() - sorted_days[-1]).days <= 1:
-            current_streak = 1
-            for i in range(len(sorted_days)-1, 0, -1):
-                if (sorted_days[i] - sorted_days[i-1]).days == 1:
-                    current_streak += 1
-                else:
-                    break
+        today_ist = (datetime.datetime.utcnow() + ist_offset).date()
+        if (today_ist - sorted_days[-1]).days <= 1:
+            current_streak = streak
     
     return {
         "total_solved": len(solved_problems),

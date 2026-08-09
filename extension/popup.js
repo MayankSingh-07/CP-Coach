@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (data.handle) {
       handleInput.value = data.handle;
       if (dashboardLink) {
-        dashboardLink.href = `http://localhost:5173/?handle=${encodeURIComponent(data.handle)}`;
+        dashboardLink.href = `https://cp-coach-gamma.vercel.app/?handle=${encodeURIComponent(data.handle)}`;
       }
       updateSyncStatus(data.lastSync);
       loadRecommendation();
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (handle) {
       chrome.storage.local.set({ handle }, () => {
         if (dashboardLink) {
-          dashboardLink.href = `http://localhost:5173/?handle=${encodeURIComponent(handle)}`;
+          dashboardLink.href = `https://cp-coach-gamma.vercel.app/?handle=${encodeURIComponent(handle)}`;
         }
         saveBtn.textContent = 'Saved!';
         setTimeout(() => saveBtn.textContent = 'Save', 1500);
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Save handle first if it changed
     chrome.storage.local.set({ handle }, () => {
       if (dashboardLink) {
-        dashboardLink.href = `http://localhost:5173/?handle=${encodeURIComponent(handle)}`;
+        dashboardLink.href = `https://cp-coach-gamma.vercel.app/?handle=${encodeURIComponent(handle)}`;
       }
       syncBtn.disabled = true;
       syncBtn.textContent = 'Syncing...';

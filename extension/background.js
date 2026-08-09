@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:8000/api/v1';
+const API_BASE = 'https://cp-coach-backend-mu09.onrender.com/api/v1';
 const CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour
 
 // Keep track of ongoing requests to prevent duplicates

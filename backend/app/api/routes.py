@@ -162,9 +162,8 @@ async def get_badge_data(handle: str, db: AsyncSession = Depends(get_db)):
         weak_tags_list = [t for t in tag_analysis if t["state"] in ["Avoided", "Confirmed Weak"]]
         
         def sort_key(t):
-            is_avoided = 0 if t["state"] == "Avoided" else 1
             gap = t["target_rating"] - t.get("contest_reliability_rating", 0)
-            return (is_avoided, -gap)
+            return -gap
             
         weak_tags_list.sort(key=sort_key)
         
@@ -188,18 +187,13 @@ async def get_badge_data(handle: str, db: AsyncSession = Depends(get_db)):
             matched_target = 0
             
             # Find the most severe tag match
-            for t in prob_tags:
-                if t in weak_tags:
-                    t_info = weak_tags[t]
-                    t_target = t_info["target_rating"]
-                    t_state = t_info["state"]
-                    
-                    if abs(rating - t_target) <= 200:
-                        # Prioritize Avoided over Confirmed Weak
-                        if matched_state != "Avoided":
-                            matched_tag = t
-                            matched_state = t_state
-                            matched_target = t_target
+            for t_info in top_weak_tags:
+                if t_info["tag"] in prob_tags:
+                    if abs(rating - t_info["target_rating"]) <= 200:
+                        matched_tag = t_info["tag"]
+                        matched_state = t_info["state"]
+                        matched_target = t_info["target_rating"]
+                        break
                             
             if matched_tag:
                 badge_data[pid] = {

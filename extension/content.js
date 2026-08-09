@@ -103,6 +103,9 @@ function injectBadges(badgeData) {
     const pid = parseProblemId(link.getAttribute('href'));
     if (!pid || processed.has(link)) return;
     
+    // Only attach to the problem name link, skip the ID link
+    if (link.textContent.trim() === pid) return;
+    
     // Some problem rows have multiple links to the same problem (ID vs Name).
     // We'll attach to the name or right after the link.
     const data = badgeData.problems[pid];

@@ -294,7 +294,10 @@ const Dashboard = ({ data, onSolveWithCoach, onRefresh }) => {
             
             {/* Activity Pattern Heatmap */}
             <div className="bg-surface border border-border p-6">
-              <h3 className="text-xs uppercase tracking-widest text-textMuted mb-6">Activity Pattern</h3>
+              <div>
+                <h3 className="text-xs uppercase tracking-widest text-textMuted">Activity Pattern</h3>
+                <p className="text-[10px] text-textMuted mt-1 mb-6">HOURLY DISTRIBUTION OF ALL SUBMISSIONS (0-23 HRS)</p>
+              </div>
               <div className="overflow-x-auto pb-4">
                 <div className="flex flex-col gap-0 min-w-[600px] border border-border w-max">
                   <div className="flex gap-0 ml-8 border-b border-border bg-background">

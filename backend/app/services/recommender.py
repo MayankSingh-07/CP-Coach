@@ -363,7 +363,11 @@ def _calculate_basic_stats(submissions, user_info):
     solve_days = set()
     ist_offset = datetime.timedelta(hours=5, minutes=30)
 
-    for sub in submissions:
+    # Sort submissions oldest-to-newest so we properly attribute the FIRST solve of a problem
+    # rather than the most recent solve (Codeforces API returns newest-first by default).
+    subs_sorted = sorted(submissions, key=lambda x: x.get("creationTimeSeconds", 0))
+
+    for sub in subs_sorted:
         prob = sub.get("problem", {})
         prob_id = f"{prob.get('contestId', '')}{prob.get('index', '')}"
 

@@ -133,11 +133,11 @@ function App() {
               {isSyncing ? 'Syncing...' : 'Sync'}
             </button>
           </form>
-          {/* H-5: inline error message below the search bar */}
-          {syncError && (
-            <div className="flex items-center gap-1.5 text-[11px] text-red-400 font-mono">
+          {/* Error message in header only if we already have data (so center screen isn't showing it) */}
+          {syncError && userData && (
+            <div className="flex items-center gap-1.5 text-[10px] text-[var(--verdict-wa)] font-mono max-w-full overflow-hidden whitespace-nowrap text-ellipsis cursor-help" title={syncError}>
               <AlertCircle className="w-3 h-3 shrink-0" />
-              <span>{syncError}</span>
+              <span className="truncate">Sync failed. Check handle.</span>
             </div>
           )}
         </div>
@@ -172,9 +172,23 @@ function App() {
               <p className="text-sm font-mono uppercase tracking-widest">Analyzing profile...</p>
             </div>
           ) : !userData ? (
-            <div className="h-full flex flex-col items-center justify-center text-textMuted">
-              <Activity className="w-12 h-12 mb-4 opacity-20" />
-              <p>Enter a Codeforces handle to begin analysis</p>
+            <div className="h-full flex flex-col items-center justify-center text-textMuted p-8">
+              {syncError ? (
+                <>
+                  <AlertCircle className="w-12 h-12 mb-4 text-[var(--verdict-wa)] opacity-80" />
+                  <div className="max-w-2xl text-center">
+                    <p className="text-sm font-mono text-[var(--verdict-wa)] mb-2 uppercase tracking-widest">Sync Failed</p>
+                    <div className="text-xs break-words bg-surface border border-[var(--verdict-wa)]/30 p-4 text-left font-mono text-textMuted overflow-auto max-h-64 shadow-lg shadow-black/20">
+                      {syncError}
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <Activity className="w-12 h-12 mb-4 opacity-20" />
+                  <p>Enter a Codeforces handle to begin analysis</p>
+                </>
+              )}
             </div>
           ) : activeTab === 'dashboard' ? (
             <Dashboard

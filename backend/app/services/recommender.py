@@ -375,15 +375,23 @@ def _calculate_basic_stats(submissions, user_info):
         # C-1: only compute dt when ts is valid; gate all dt-dependent operations inside this block
         if ts > 0:
             dt = datetime.datetime.utcfromtimestamp(ts) + ist_offset
-            activity_grid[f"{dt.weekday()},{dt.hour}"] += 1
-
+            
             if verdict == "OK":
-                solves_per_month[dt.strftime("%Y-%m")] += 1
-                solve_days.add(dt.date())
+                # Only count successful solves in the activity grid, not all submissions (like WAs/TLEs)
+                # To perfectly match Codeforces's "141 problems" counter, we only increment 
+                # if this is the FIRST time the user solved this specific problem on this day
+                if prob_id not in solved_problems:
+                    solves_per_month[dt.strftime("%Y-%m")] += 1
+                    solve_days.add(dt.date())
+                    activity_grid[f"{dt.weekday()},{dt.hour}"] += 1
 
         # C-1: solved_problems tracking is independent of ts
         if verdict == "OK":
-            solved_problems.add(prob_id)
+            # We already track the first time a problem is solved to avoid double counting it in total_solved
+            # even if they solved it multiple times across different days.
+            if prob_id not in solved_problems:
+                solved_problems.add(prob_id)
+            # Total OK submissions across all time, regardless of whether it was a duplicate solve
             ok_submissions += 1
 
     accuracy = (ok_submissions / total_submissions * 100) if total_submissions > 0 else 0

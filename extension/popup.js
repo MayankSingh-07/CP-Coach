@@ -67,6 +67,13 @@ document.addEventListener('DOMContentLoaded', () => {
     chrome.runtime.sendMessage({ type: 'GET_RECOMMENDATION', force: true }, (response) => {
       newPickBtn.disabled = false;
       newPickBtn.textContent = 'New Pick';
+
+      // L-5: guard against service worker being asleep
+      if (chrome.runtime.lastError) {
+        syncStatus.textContent = 'Wake up & retry';
+        syncStatus.style.color = 'var(--verdict-tle)';
+        return;
+      }
       
       if (response && response.success) {
         renderRecommendation(response.data);

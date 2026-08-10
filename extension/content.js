@@ -14,11 +14,11 @@ const BADGE_STYLES = `
     display: inline-block;
   }
   .agy-badge-dot.avoided {
-    background-color: #f97316; /* TLE color map for avoided */
+    background-color: #f97316;
     box-shadow: 0 0 4px #f97316;
   }
   .agy-badge-dot.weak {
-    background-color: #ef4444; /* WA color map for weak */
+    background-color: #ef4444;
   }
   
   .agy-badge-tooltip {
@@ -94,20 +94,19 @@ function parseProblemId(href) {
 function injectBadges(badgeData) {
   if (!badgeData || !badgeData.problems) return;
   
-  // Find all links in the document
   const links = document.querySelectorAll('table.problems a, table tr td:first-child a');
-  
   const processed = new Set();
   
   links.forEach(link => {
     const pid = parseProblemId(link.getAttribute('href'));
     if (!pid || processed.has(link)) return;
     
-    // Only attach to the problem name link, skip the ID link
+    // Only attach to the problem name link, skip the ID link (e.g. "2247C")
     if (link.textContent.trim() === pid) return;
+
+    // Also skip if badge already injected on this link (M-3: prevents duplicates on re-runs)
+    if (link.parentNode.querySelector('.agy-badge-container')) return;
     
-    // Some problem rows have multiple links to the same problem (ID vs Name).
-    // We'll attach to the name or right after the link.
     const data = badgeData.problems[pid];
     if (data) {
       processed.add(link);
@@ -132,14 +131,12 @@ function injectBadges(badgeData) {
       container.appendChild(dot);
       container.appendChild(tooltip);
       
-      // Append right after the link
       link.parentNode.insertBefore(container, link.nextSibling);
     }
   });
 }
 
 function extractAndSaveHandle() {
-  // Try to find the profile link in the header which contains the handle
   const profileLink = document.querySelector('.lang-chooser a[href^="/profile/"], .personal-sidebar a[href^="/profile/"]');
   if (profileLink) {
     const handle = profileLink.textContent.trim();
@@ -153,18 +150,38 @@ function extractAndSaveHandle() {
   }
 }
 
+// M-3: Watch for DOM mutations so badges survive dynamic table updates
+// (e.g. Codeforces tag/rating filter changes that rebuild the problem table rows)
+let _badgeDataCache = null;
+let _observer = null;
+
+function startObserver() {
+  if (_observer) return; // already watching
+
+  const target = document.querySelector('table.problems') || document.body;
+  _observer = new MutationObserver(() => {
+    if (_badgeDataCache) {
+      injectBadges(_badgeDataCache);
+    }
+  });
+  _observer.observe(target, { childList: true, subtree: true });
+}
+
 function init() {
   extractAndSaveHandle();
   
   chrome.runtime.sendMessage({ type: 'GET_BADGE_DATA' }, response => {
     if (chrome.runtime.lastError) {
-      console.warn("Antigravity Extension:", chrome.runtime.lastError.message);
+      console.warn("CP Coach Extension:", chrome.runtime.lastError.message);
       return;
     }
     
     if (response && response.success && response.data) {
+      _badgeDataCache = response.data;
       injectStyles();
       injectBadges(response.data);
+      // M-3: start watching for table changes after first inject
+      startObserver();
     }
   });
 }

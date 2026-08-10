@@ -18,6 +18,9 @@ PROBLEMSET_TTL = 12 * 60 * 60 # 12 hours for global problemset
 
 CODEFORCES_API_URL = "https://codeforces.com/api"
 
+# M-5: standard timeout for all Codeforces API calls
+CF_TIMEOUT = httpx.Timeout(15.0)
+
 async def get_user_submissions(handle: str, force_refresh: bool = False) -> List[Dict[str, Any]]:
     """
     Fetch user submission history via Codeforces API asynchronously.
@@ -33,7 +36,7 @@ async def get_user_submissions(handle: str, force_refresh: bool = False) -> List
             
     url = f"{CODEFORCES_API_URL}/user.status?handle={handle}"
     
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=CF_TIMEOUT) as client:
         response = await client.get(url)
         if response.status_code != 200:
             raise Exception(f"Failed to fetch submissions for {handle}: {response.text}")
@@ -82,7 +85,7 @@ async def get_user_info(handle: str, force_refresh: bool = False) -> Dict[str, A
             
     url = f"{CODEFORCES_API_URL}/user.info?handles={handle}"
     
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=CF_TIMEOUT) as client:
         response = await client.get(url)
         if response.status_code != 200:
             raise Exception(f"Failed to fetch user info for {handle}")
@@ -116,7 +119,7 @@ async def get_user_rating_history(handle: str, force_refresh: bool = False) -> L
             
     url = f"{CODEFORCES_API_URL}/user.rating?handle={handle}"
     
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=CF_TIMEOUT) as client:
         response = await client.get(url)
         if response.status_code != 200:
             return []
@@ -142,7 +145,6 @@ def calculate_user_statistics(submissions: List[Dict[str, Any]], user_info: Dict
         prob = sub.get("problem", {})
         prob_id = f"{prob.get('contestId', '')}{prob.get('index', '')}"
         
-        # Track languages
         lang = sub.get("programmingLanguage")
         if lang:
             language_counts[lang] = language_counts.get(lang, 0) + 1
@@ -172,7 +174,7 @@ async def get_problemset(force_refresh: bool = False) -> List[Dict[str, Any]]:
     if not force_refresh and cache["problemset"]["data"] and (current_time - cache["problemset"]["timestamp"] < PROBLEMSET_TTL):
         return cache["problemset"]["data"]
     
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=CF_TIMEOUT) as client:
         logger.info("Fetching problemset from Codeforces API...")
         response = await client.get(f"{CODEFORCES_API_URL}/problemset.problems")
         if response.status_code != 200:
@@ -193,12 +195,11 @@ async def get_recent_contests(force_refresh: bool = False) -> List[Dict[str, Any
     """
     current_time = time.time()
     
-    # Check cache
     if not force_refresh and cache["contests"]["data"] and (current_time - cache["contests"]["timestamp"] < PROBLEMSET_TTL):
         logger.info("Returning contests from cache")
         return cache["contests"]["data"]
         
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=CF_TIMEOUT) as client:
         logger.info("Fetching contests from Codeforces API...")
         response = await client.get(f"{CODEFORCES_API_URL}/contest.list")
         if response.status_code != 200:

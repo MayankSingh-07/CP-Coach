@@ -70,13 +70,14 @@ const Dashboard = ({ data, onSolveWithCoach, onRefresh }) => {
     'RUNTIME_ERROR': 'var(--verdict-re)'
   };
   
-  const verdictData = Object.entries(data.stats.verdicts || {}).map(([key, value]) => ({ 
+  // M-8: optional chaining prevents crash when backend returns null/undefined stats
+  const verdictData = Object.entries(data?.stats?.verdicts || {}).map(([key, value]) => ({ 
     name: key === 'OK' ? 'ACCEPTED' : key, 
     value,
     color: VERDICT_COLORS[key] || '#808080'
   }));
   
-  const solvesData = Object.entries(data.stats.solves_per_month || {})
+  const solvesData = Object.entries(data?.stats?.solves_per_month || {})
     .sort((a, b) => a[0].localeCompare(b[0]))
     .slice(-12)
     .map(([key, value]) => ({ month: key, solves: value }));
@@ -303,7 +304,7 @@ const Dashboard = ({ data, onSolveWithCoach, onRefresh }) => {
                     <div key={day} className="flex gap-0 items-stretch border-b border-border last:border-b-0">
                       <div className="w-8 text-[10px] text-textMuted flex items-center justify-center font-mono border-r border-border bg-background uppercase">{day.slice(0,2)}</div>
                       {[...Array(24)].map((_, h) => {
-                        const val = data.stats.activity_grid[`${dIdx},${h}`] || 0;
+                        const val = data?.stats?.activity_grid?.[`${dIdx},${h}`] || 0;
                         let opacity = 0;
                         if (val > 0) opacity = 0.2;
                         if (val > 2) opacity = 0.4;
@@ -346,7 +347,10 @@ const Dashboard = ({ data, onSolveWithCoach, onRefresh }) => {
                         
                         let val = 0;
                         if (band === '<1000') {
-                          val = (data.tag_coverage[tag]['800-999'] || 0) + (data.tag_coverage[tag]['0-199'] || 0);
+                          // L-2: sum ALL bins below 1000 (e.g. 600-799, 800-999) not just hardcoded keys
+                          val = Object.keys(data.tag_coverage[tag])
+                            .filter(k => parseInt(k) < 1000)
+                            .reduce((acc, k) => acc + (data.tag_coverage[tag][k] || 0), 0);
                         } else if (band === '2400+') {
                            val = Object.keys(data.tag_coverage[tag]).filter(k => parseInt(k) >= 2400).reduce((a,b) => a + data.tag_coverage[tag][b], 0);
                         } else {

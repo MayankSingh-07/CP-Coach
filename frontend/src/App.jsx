@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Activity, BookOpen, MessageSquareCode } from 'lucide-react';
+import { Search, Activity, BookOpen, MessageSquareCode, AlertCircle } from 'lucide-react';
 import Dashboard from './components/Dashboard';
 import ChatInterface from './components/ChatInterface';
 
 function App() {
   const [handle, setHandle] = useState('');
   const [isSyncing, setIsSyncing] = useState(false);
-  const [activeTab, setActiveTab] = useState('dashboard'); // 'dashboard', 'coach'
+  const [activeTab, setActiveTab] = useState('dashboard');
   const [userData, setUserData] = useState(null);
   const [activeWorkspaceProblem, setActiveWorkspaceProblem] = useState(null);
+  // H-5: inline error state instead of alert()
+  const [syncError, setSyncError] = useState('');
 
   const getAccentColor = (rating) => {
     if (!rating) return '#94a3b8';
@@ -24,9 +26,12 @@ function App() {
   };
 
   const getAccentRGB = (hex) => {
+    // M-7: guard against non-hex color strings
+    if (!hex || !hex.startsWith('#') || hex.length < 7) return '148, 163, 184';
     const r = parseInt(hex.slice(1, 3), 16);
     const g = parseInt(hex.slice(3, 5), 16);
     const b = parseInt(hex.slice(5, 7), 16);
+    if (isNaN(r) || isNaN(g) || isNaN(b)) return '148, 163, 184';
     return `${r}, ${g}, ${b}`;
   };
 
@@ -42,7 +47,8 @@ function App() {
   const performSync = async (targetHandle, forceRefresh = false) => {
     if (!targetHandle) return;
     setIsSyncing(true);
-    
+    setSyncError(''); // H-5: clear previous error
+
     try {
         const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
         const url = new URL(`${API_BASE}/api/v1/analyze/${targetHandle}`);
@@ -52,18 +58,20 @@ function App() {
       const response = await fetch(url, {
         method: 'POST',
       });
-      
+
       if (!response.ok) {
-        throw new Error('Failed to fetch data');
+        // H-5: extract the real error message from the backend response
+        let detail = `HTTP ${response.status}`;
+        try {
+          const errJson = await response.json();
+          detail = errJson.detail || detail;
+        } catch (_) {}
+        throw new Error(detail);
       }
-      
+
       const data = await response.json();
-      
-      // Map weakness_index from backend to index expected by frontend
-      const formattedTopics = data.tag_analysis.map(t => ({
-        tag: t.tag,
-        index: t.weakness_index
-      }));
+
+      // M-6: removed dead formattedTopics code (weakness_index field never existed)
 
       setUserData({
         handle: data.handle,
@@ -77,7 +85,8 @@ function App() {
       });
     } catch (error) {
       console.error(error);
-      alert("Error fetching data. Is the backend running?");
+      // H-5: show error inline, not as a blocking alert
+      setSyncError(error.message || 'Failed to fetch data. Check the handle and try again.');
     } finally {
       setIsSyncing(false);
     }
@@ -104,39 +113,48 @@ function App() {
             AI CP Coach
           </h1>
         </div>
-        
+
         {/* Search & Sync View */}
-        <form onSubmit={handleSync} className="flex items-center relative w-96">
-          <Search className="w-4 h-4 absolute left-3 text-textMuted" />
-          <input
-            type="text"
-            placeholder="Enter Codeforces handle..."
-            value={handle}
-            onChange={(e) => setHandle(e.target.value)}
-            className="w-full bg-background border border-border rounded-md py-2 pl-9 pr-24 text-sm focus:outline-none focus:border-primary transition-colors"
-          />
-          <button 
-            type="submit"
-            disabled={isSyncing || !handle}
-            className="absolute right-1 top-1 bottom-1 px-3 bg-primary hover:bg-primaryHover text-white rounded text-xs font-medium transition-colors disabled:opacity-50"
-          >
-            {isSyncing ? 'Syncing...' : 'Sync'}
-          </button>
-        </form>
+        <div className="flex flex-col items-end gap-1 w-96">
+          <form onSubmit={handleSync} className="flex items-center relative w-full">
+            <Search className="w-4 h-4 absolute left-3 text-textMuted" />
+            <input
+              type="text"
+              placeholder="Enter Codeforces handle..."
+              value={handle}
+              onChange={(e) => { setHandle(e.target.value); setSyncError(''); }}
+              className="w-full bg-background border border-border rounded-md py-2 pl-9 pr-24 text-sm focus:outline-none focus:border-primary transition-colors"
+            />
+            <button
+              type="submit"
+              disabled={isSyncing || !handle}
+              className="absolute right-1 top-1 bottom-1 px-3 bg-primary hover:bg-primaryHover text-white rounded text-xs font-medium transition-colors disabled:opacity-50"
+            >
+              {isSyncing ? 'Syncing...' : 'Sync'}
+            </button>
+          </form>
+          {/* H-5: inline error message below the search bar */}
+          {syncError && (
+            <div className="flex items-center gap-1.5 text-[11px] text-red-400 font-mono">
+              <AlertCircle className="w-3 h-3 shrink-0" />
+              <span>{syncError}</span>
+            </div>
+          )}
+        </div>
       </header>
 
       {/* Main Content */}
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
         <aside className="w-64 border-r border-border bg-surface p-4 flex flex-col gap-2 shrink-0">
-          <button 
+          <button
             onClick={() => setActiveTab('dashboard')}
             className={`flex items-center gap-3 px-4 py-3 rounded-md transition-colors ${activeTab === 'dashboard' ? 'bg-primary/10 text-primary' : 'text-textMuted hover:bg-border/50 hover:text-textMain'}`}
           >
             <BookOpen className="w-5 h-5" />
             <span className="font-medium">Analytics & Roadmap</span>
           </button>
-          <button 
+          <button
             onClick={() => setActiveTab('coach')}
             className={`flex items-center gap-3 px-4 py-3 rounded-md transition-colors ${activeTab === 'coach' ? 'bg-primary/10 text-primary' : 'text-textMuted hover:bg-border/50 hover:text-textMain'}`}
           >
@@ -147,18 +165,24 @@ function App() {
 
         {/* Dynamic View */}
         <main className="flex-1 overflow-auto">
-          {!userData ? (
+          {/* L-4: show loading state while syncing before first data load */}
+          {isSyncing && !userData ? (
+            <div className="h-full flex flex-col items-center justify-center text-textMuted gap-4">
+              <Activity className="w-10 h-10 opacity-40 animate-pulse" />
+              <p className="text-sm font-mono uppercase tracking-widest">Analyzing profile...</p>
+            </div>
+          ) : !userData ? (
             <div className="h-full flex flex-col items-center justify-center text-textMuted">
               <Activity className="w-12 h-12 mb-4 opacity-20" />
               <p>Enter a Codeforces handle to begin analysis</p>
             </div>
           ) : activeTab === 'dashboard' ? (
-            <Dashboard 
-              data={userData} 
+            <Dashboard
+              data={userData}
               onSolveWithCoach={(prob) => {
                 setActiveWorkspaceProblem(prob);
                 setActiveTab('coach');
-              }} 
+              }}
               onRefresh={() => handleSync(null, true)}
             />
           ) : (
@@ -179,7 +203,7 @@ function App() {
                     <p className="text-sm font-mono text-[var(--accent)] truncate">{activeWorkspaceProblem.problem_name}</p>
                   </div>
                 )}
-                <button 
+                <button
                   onClick={() => setActiveTab('dashboard')}
                   className="mt-6 px-4 py-2 bg-surface hover:bg-border border border-border text-xs uppercase tracking-widest transition-colors font-semibold"
                 >

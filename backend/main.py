@@ -8,7 +8,7 @@ from app.api.chat import router as chat_router
 async def lifespan(app: FastAPI):
     # Initialize DB tables
     from app.core.database import engine, Base
-    from app.models.tracking import UserTracking # Import so they register with Base
+    from app.models.tracking import UserTracking, TagBanditOffset  # Import so they register with Base
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
     yield
